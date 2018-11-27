@@ -23,6 +23,11 @@ public class ArrayListDemo{
 
 			System.out.println();
 }
+	public static ArrayList<Integer> removeDuplicates(ArrayList<Integer> list){
+		ArrayList<Integer> noDuplicates = new ArrayList<Integer>();
+		noDuplicates.add(0);
+		return noDuplicates;
+}
 
 	public static void main(String [] args){
 
@@ -37,7 +42,7 @@ public class ArrayListDemo{
 
 		System.out.println(combine(a,b));
 		print(a);
-
+		System.out.println(removeDuplicates(a));
 
 
 
